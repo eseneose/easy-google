@@ -1,4 +1,4 @@
-export const API_KEY = PROCESS.ENV.API_KEY
+export const API_KEY = process.env.API_KEY
 
 
-export const CONTEXT_KEY = PROCESS.ENV.CONTEXT_KEY
+export const CONTEXT_KEY = process.env.CONTEXT_KEY
