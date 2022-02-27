@@ -26,7 +26,7 @@ the results are displayed  by mappin each to a div and a p element containing th
 
 to use this app, create a dev.js file in the config folder and place in your own Googke customsearch api_key ( https://developers.google.com/custom-search/v1/using_rest) and context_key(https://cse.google.com/cse/create/new).
 
-see a live demo of this app here easy-google-f03d7cqp7-eseneose.vercel.app
+see a live demo of this app here https://easy-google.vercel.app/
 
 as at the time of this deployment, my api_key has not been verified and will not work properly as i am currently unable to setup a GCP billing account
 
