@@ -1,5 +1,3 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 
 First, run the development server:
@@ -18,17 +16,18 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+## Notes
 
-To learn more about Next.js, take a look at the following resources:
+This project is to demostrate the power of tailwind css and how it can be used to reduce your css code as well as make them more effective
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+When user search a term, an api call is made to google customsearch api which returns the search result for the term.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+the results are displayed  by mappin each to a div and a p element containing the required data from the results.
 
-## Deploy on Vercel
+to use this app, create a dev.js file in the config folder and place in your own Googke customsearch api_key ( https://developers.google.com/custom-search/v1/using_rest) and context_key(https://cse.google.com/cse/create/new).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+see a live demo of this app here easy-google-f03d7cqp7-eseneose.vercel.app
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+as at the time of this deployment, my api_key has not been verified and will not work properly as i am currently unable to setup a GCP billing account
+
+To use this app at its fullest, clone the repository, fix in your api_key and run.

@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Header from '../components/Header'
 
 import Response from '../Response'
-import {API_KEY, CONTEXT_KEY } from '../Keys'
+import {API_KEY, CONTEXT_KEY } from '../config/Keys'
 import { useRouter } from 'next/router'
 import SearchResults from '../components/SearchResults'
 
